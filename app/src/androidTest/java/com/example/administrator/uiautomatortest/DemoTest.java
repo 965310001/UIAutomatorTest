@@ -109,6 +109,8 @@ public class DemoTest extends UiAutomatorTestCase {
 //        getUiDevice().openQuickSettings();
 
         getUiDevice().pressRecentApps();
+        getUiDevice().pressHome();
+
 
         getUiDevice().swipe(getUiDevice().getDisplayWidth()/3*2,
                 getUiDevice().getDisplayHeight()/5*4,
